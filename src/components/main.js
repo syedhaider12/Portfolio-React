@@ -1,7 +1,7 @@
 import React from "react";
 
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { HiMail } from "react-icons/hi";
+
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 function Main() {
@@ -34,7 +34,7 @@ function Main() {
             I'm Full Stack Developer comfortable with both front and back end of
             web development.Currently,I'm learning TypeScript and Graphql.
           </p>
-          <div className="flex justify-around py-4  max-w-[330px] m-auto items-center" data-aos="fade-right" data-aos-duration="2000">
+          <div className="flex justify-center space-x-2 py-4  max-w-[330px] m-auto items-center" data-aos="fade-right" data-aos-duration="2000">
             <div className="p-5 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
             <a href='https://www.linkedin.com/in/haideerr/'>
               <FaLinkedinIn className="w-5 h-5 text-[#0b377d] cursor-pointer " >
@@ -49,12 +49,7 @@ function Main() {
                 </FaGithub>
                 </a>
             </div>
-            <div className="p-5 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-110">
-              <HiMail
-                className=" w-5 h-5 text-[#0b377d] cursor-pointer"
-              />
-             
-            </div>
+         
             
           </div>
         </div>

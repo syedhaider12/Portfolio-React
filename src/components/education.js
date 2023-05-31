@@ -14,7 +14,7 @@ function Education() {
         className="vertical-timeline-element--work"
         contentStyle={{ background: "rgb(241 245 249)", color: "Black" }}
         contentArrowStyle={{ borderRight: "10px solid  rgb(241 245 249)" }}
-        date="2020 - present"
+        date="2020 - 2022"
         iconStyle={{ background: "black", color: "#fff" }}
          icon={<IoCodeWorking />
          

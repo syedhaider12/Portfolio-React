@@ -13,7 +13,7 @@ function Projects() {
         <p className="text-[#0b377d] pt-2 tracking-widest text-center uppercase" data-aos="fade-right" data-aos-duration="1000">
           what i have done
         </p>
-        <div className="grid grid-cols-1 gap-8 p-4 my-10 md:grid-cols-3 sm:grid-cols-2">
+        <div className="grid grid-cols-1 gap-8 p-4 my-10 md:grid-cols-4 sm:grid-cols-2">
           <div className="flex flex-col w-full h-auto duration-300 ease-in rounded-lg shadow-lg bg-slate-100 shadow-gray-400 hover:scale-105">
             <p className="py-2 font-bold text-center text-black">Netflix Clone</p>
             <div className="flex flex-row items-center justify-between m-2">
@@ -90,10 +90,48 @@ function Projects() {
             </div>
           </div>
           <div className="flex flex-col w-full h-auto duration-300 ease-in rounded-lg shadow-lg bg-slate-100 shadow-gray-400 hover:scale-105">
-            <p className="py-2 font-bold text-center text-black">MERN Nextflix Clone</p>
+            <p className="py-2 font-bold text-center text-black">gifty</p>
             <div className="flex flex-row items-center justify-between m-2">
               <img
-                src="assests/signup.JPG"
+                src="assests/gifty.JPG"
+                alt=""
+                className="h-[300px] w-full"
+              ></img>
+            
+            </div>
+            <div className="flex flex-row items-center justify-between p-2 ">
+              <div className="flex flex-col text-black ">
+                <p className="font-semibold">Technologies</p>
+                <div className="flex flex-row">
+                  <p>React</p>
+                  <p className="mx-2">Tailwind </p>
+                  
+          
+                </div>
+              </div>
+              <div className="flex flex-col items-center">
+              <a href='https://github.com/syedhaider12/gifty'>
+              <FaGithub className="w-5 h-5 text-black cursor-pointer " >
+               
+                </FaGithub>
+                </a>
+                <a href='https://gifty-kappa.vercel.app/'>
+              <GoBrowser className="w-5 h-5 text-black cursor-pointer " >
+               
+                </GoBrowser>
+                </a>
+               
+                
+               
+              
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col w-full h-auto duration-300 ease-in rounded-lg shadow-lg bg-slate-100 shadow-gray-400 hover:scale-105">
+            <p className="py-2 font-bold text-center text-black">Ozturk Realtors RealEstate</p>
+            <div className="flex flex-row items-center justify-between m-2">
+              <img
+                src="assests/oz.JPG"
                 alt=""
                 className="h-[300px] w-full"
               ></img>
@@ -111,12 +149,16 @@ function Projects() {
                 </div>
               </div>
               <div className="flex flex-col items-center">
-              <a href='https://github.com/syedhaider12/Netflix_clone_Mern'>
+              <a href='https://github.com/syedhaider12/Ozturk_Frontend'>
               <FaGithub className="w-5 h-5 text-black cursor-pointer " >
                
                 </FaGithub>
                 </a>
+                <a href='https://ozturkrealtors.com/'>
+              <GoBrowser className="w-5 h-5 text-black cursor-pointer " >
                
+                </GoBrowser>
+                </a>
                
                 
                
